@@ -21,7 +21,7 @@ export default class PhoneBookForm extends Component {
         const { name, value } = e.currentTarget;
         this.setState({ [name]: value });
     }
-    
+      
     render() {
         return (
             <form className={style.inputForm} onSubmit={this.onFormSubmit}>
